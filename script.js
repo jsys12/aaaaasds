@@ -1,7 +1,7 @@
 // script.js
 
 // Имитируем базу данных имен
-const validUsernames = ['Иван', 'Мария', 'Петр'];
+const validUsernames = ['Роман', 'Рома', 'Стас', 'Сус', 'Станисла', 'Станислав', 'Станислау', 'Саня', 'Александр', 'Саша', 'Егор', 'Уегорп', 'Матвей', 'Матрасик', 'Матрас', 'Стасик',];
 
 // Функция для проверки имени и отображения приветственного сообщения
 function handleFormSubmit(event) {
@@ -32,5 +32,10 @@ function openLink() {
     window.open('https://t.me/username4332', '_blank'); // Открывает ссылку в новой вкладке
 }
 
+function openLink2() {
+    window.open('https://t.me/+jAJPwVO1TwQ3ZmYy', '_blank'); // Открывает ссылку в новой вкладке
+}
+
 // Назначаем обработчик события для кнопки
 document.getElementById('openLinkButton').addEventListener('click', openLink);
+document.getElementById('openLinkButton2').addEventListener('click', openLink2);
